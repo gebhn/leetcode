@@ -30,7 +30,7 @@ To run the tests:
 
 +------------------------------------------------------------------------------+
 |                                                                              |
-|   $ make test       # To run the tests once                                  |
+|   $ make test         # To run the tests once                                |
 |   $ make count=n test # To run the tests n times                             |
 |                                                                              |
 +------------------------------------------------------------------------------+
