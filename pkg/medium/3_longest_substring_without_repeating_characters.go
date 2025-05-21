@@ -2,7 +2,6 @@ package medium
 
 func lengthOfLongestSubstring(s string) int {
 	var low, result int
-
 	seen := map[rune]int{}
 
 	for high, char := range s {
