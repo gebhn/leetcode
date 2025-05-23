@@ -22,7 +22,7 @@ Makefile.
 [002] Testing
 ________________________________________________________________________________
 
-Each problem has an associated *_test.go file which contains the example test
+Each problem set has an associated *_test.go file which contains the example test
 cases and a simple test suite for executing the solution against the provided
 example cases.
 
