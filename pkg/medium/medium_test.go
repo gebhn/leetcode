@@ -87,6 +87,14 @@ func TestSolution(t *testing.T) {
 		assert.Equal(t, 21, reverse(ex3))
 	})
 
+	t.Run("11 Container With Most Water", func(t *testing.T) {
+		ex1 := []int{1, 8, 6, 2, 5, 4, 8, 3, 7}
+		ex2 := []int{1, 1}
+
+		assert.Equal(t, 49, maxArea(ex1))
+		assert.Equal(t, 1, maxArea(ex2))
+	})
+
 	t.Run("3355 Zero Array Transformation I", func(t *testing.T) {
 		type testCase struct {
 			nums    []int
@@ -107,5 +115,4 @@ func TestSolution(t *testing.T) {
 		assert.True(t, isZeroArray(ex1.nums, ex1.queries))
 		assert.False(t, isZeroArray(ex2.nums, ex2.queries))
 	})
-
 }
